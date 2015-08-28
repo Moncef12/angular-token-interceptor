@@ -1,6 +1,6 @@
 describe('authFactory', function () {
 
-    beforeEach(module('mabyo3'));
+    beforeEach(module('myApp'));
     beforeEach(inject(function (_authFactory_, _$window_, _$httpBackend_, _$q_) {
         authFactory = _authFactory_;
         $window = _$window_;

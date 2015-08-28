@@ -1,5 +1,5 @@
 angular
-    .module('mabyo3')
+    .module('myApp')
     .factory('tokenInterceptor', ['$q', '$window', tokenInterceptor])
 
 
