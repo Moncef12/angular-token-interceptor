@@ -1,7 +1,8 @@
 angular
     .module('myApp')
-    .factory('authFactory', ['$http', '$location', '$window', '$q', '$rootScope', authFactory])
+    .factory('authFactory', authFactory); 
 
+authFactory.$inject = ['$http', '$location', '$window', '$q', '$rootScope'];
 
 function authFactory($http, $location, $window, $q, $rootScope) {
 

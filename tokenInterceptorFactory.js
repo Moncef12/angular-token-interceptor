@@ -1,6 +1,9 @@
 angular
     .module('myApp')
-    .factory('tokenInterceptor', ['$q', '$window', tokenInterceptor])
+    .factory('tokenInterceptor', tokenInterceptor); 
+
+
+tokenInterceptor.$inject =   ['$q', '$window'];
 
 
 function tokenInterceptor($http, $window) {
